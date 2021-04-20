@@ -1,13 +1,7 @@
 body {
     background-color: rgb(243, 189, 216);
 }
-span {
-    float: left;
-    width: 0.7em;
-    font-size: 700%;
-    font-family:algerian, courier;
-    line-height: 80%;
-}
+
 .p1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -16,8 +10,38 @@ span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-img {
-    border-radius: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+
+
+h3 {
+    border-style: dotted;
+    font-size: 30px;
+    display: block;  
 }
+
+h4 {
+    display: flex;
+    width: 100px;
+    height: 200px;
+    margin-left: 200px;
+    font-size: 30px;
+    border: 5px solid black;
+    background-color: coral;
+}
+.textOnPhoto {
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 30px;
+}
+
+.float {
+    float: right;
+    padding:50px;
+}
+
